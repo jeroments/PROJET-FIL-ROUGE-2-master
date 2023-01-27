@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+section {
+    padding: 50px 10%;
+}
+header  {
+    width: 100%;
+    /* z-index: 1000; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 15px 10%;
+
+}
+
+img {
+    width: 100%;
+}
+
+.logo {
+    position: relative;
+    top: -10px;
+    height: 180px;
+    width: 160px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar  {
+    display:flex;
+}
+
+.navbar a{
+    padding-top: 11px;
+    padding-bottom:  11px;
+    padding-left: 25px;
+    padding-right:  25px;
+    color: #1e3932;
+    font-size: 18px;
+   
+}
+.navbar  a:hover{
+    color:#7DDB53;
+}
+
+#menu-icon {
+    font-size:30px;
+    cursor:pointer;
+    z-index:  1001;
+    display:none;
+
+}
+
+
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration:none;
+    list-style:  none;
+    display:   flex;
+    flex-wrap: wrap;
+
+  }
+  
+  body {
+    background: #f1f1f1;
+  }
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+  }
+  
+  .slider img {
+    max-width: 100%;
+    display: none;
+  }
+  img.active {
+    display: block;
+    animation: fade 0.8s;
+  } 
+  .cont-btn {
+    width: 100%;
+    height: auto;
+    border: 1px solid #000;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: center;
+  }
+  .btn-nav {
+    font-size: 50px;
+    margin: 0 15px;
+    cursor: pointer;
+  }
+
+
+/************************************************************************************** SOCIAL  FOOTER ************************************************************************************ */
+
+
+  .contact  {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social a {
+    font-size: 30px;
+    margin: 10px;
+}
+
+.social a  .bx {
+    padding: 5px;
+    color: #fff;
+    gap: 30px;;
+    background:  #1e3932;
+    border-radius:  50%;
+
+}
+
+.social a .bx:hover {
+    background:  #7DDB53;
+}
+
+.links a  {
+    position: relative;
+    bottom: -20px;
+    font-size: 20px;
+    padding :  10px;
+    padding-top: 20px;
+    gap:20px;
+    color:#1e3932;
+}
