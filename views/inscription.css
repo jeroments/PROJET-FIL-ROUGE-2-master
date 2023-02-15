@@ -9,6 +9,7 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    
   
 }
 
@@ -79,21 +80,31 @@ img {
 
 
 form {
-display:flex;
+position:absolute;
+left: 655px;
 flex-direction: column;
 background-color: #ead5dc;
 padding:10px;
 border-radius: 6px;
 align-items: center;
 justify-content:center;
+width: 30%
 
-
+}
+.titre-formulaire {
+    position: relative;
+    bottom : 40px;
+    font-size: 25px;
 }
 
 .formulaire {
     position:relative;
     left:550px;
-    width: 40%;
+    width: 30%;
+    background-color: #ead5dc;
+    border-radius: 20px;
+    justify-content:center;
+    align-items: center;
 }
 
 .name-field {

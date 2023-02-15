@@ -16,6 +16,7 @@ header  {
 
 img {
     width: 100%;
+    
 }
 
 .logo {
@@ -81,6 +82,7 @@ img {
   img.active {
     display: block;
     animation: fade 0.8s;
+    max-width: 100%;
   } 
   .cont-btn {
     width: 100%;

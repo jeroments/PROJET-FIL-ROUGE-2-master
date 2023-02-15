@@ -1,4 +1,5 @@
-<!-- <!DOCTYPE html>
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -11,40 +12,39 @@
 </head>
 <body>
    
-------------------------------------------------------------  Nav --------------------------------------------------------------------------------------------------->
-<!-- <header>
-    <a href="index.html"><img class="logo" src="img/logo.jpg"></a>
+<!--------------------------------------------------------------  Nav --------------------------------------------------------------------------------------------------->
+<header>
+    <a href="index.php"><img class="logo" src="img/logo.jpg"></a>
     <div class="bx bx-menu"  id="menu-icon"></div>
 <nav>
     <ul class="navbar">
-        <li><a href="index.html">Accueil</a></li>
+        <li><a href="index.php">Accueil</a></li>
         <li><a href="#produits">Nos produits</a></li>
         <li><a href="#livraison">Livraison</a></li>
         <li><a href="galerie.html">Galerie</a></li>
         <li><a href="#about">A propos de nous</a></li>
         <li><a href="form.html">Contactez nous</a></li>
-        <li><a href="inscription.php">Inscription</a></li>
-        <li><a href="deconnexion.php">Se déconnecter</a></li>
+        <li><a href="./views/connexion.php">Inscription/Se connecter</a></li>
 
     </ul>
 </nav>
-</header> -->
+</header>
 <!-------------------------------------------------------------------Fin NAV ---------------------------------------------------------------------------------------------->
 <!------------------------------------------------------------------- Img Accueil ---------------------------------------------------------------------------------------------->
-<!-- <section class="Accueil" id="accueil">
+<section class="Accueil" id="accueil">
     <div class="text-accueil">
         <p>Bienvenue au</p>
         <h1>BobunTea</h1>
         <h2>Venez prendre une dose <br> de fraicheur</h2>
-         <a href="#" class="button">Rejoignez nous</a> -->
-    <!-- </div>
+        <!-- <a href="#" class="button">Rejoignez nous</a> -->
+    </div>
 <div class="accueil-img">
     <img src="img/Imageaccueil.png">
 </div>
-</section> --> 
+</section>
 <!-------------------------------------------------------------------Fin Img Accueil ---------------------------------------------------------------------------------------------->
 <!-------------------------------------------------------------------Nos produits ------------------------------------------------------------------------------------------------->
-<!-- <section class="produits" id="produits">
+<section class="produits" id="produits">
     <div class="titres-produits">
         <p>Nos Produits</p>
         <h1>Nos Bubbletea et Bobuns</h1>
@@ -135,10 +135,10 @@
             <p>14,99€</p>  
         </div>  
     </div>
-</section> -->
+</section>
 <!-------------------------------------------------------------------Fin Nos produits ---------------------------------------------------------------------------------------------->
 <!-------------------------------------------------------------------  Livraison ------------------------------------------------------------------------------------------------->
-<!-- <section class="livraison" id="livraison">
+<section class="livraison" id="livraison">
     <div class="titres-livraison">
         <p>Faite vous livrer maintenant</p>
         <h1>Commandez avec Uber Eats</h1>
@@ -154,12 +154,12 @@
             <a href="#"  class="btn">Commandez maintenant</a>
         </div>
         <img class="singe"  src="img/SINGE.png">
-    </div> -->
+    </div>
     
-<!-- </section> -->
+</section>
 <!-------------------------------------------------------------------  Fin LIVRAISON -------------------------------------------------------------------------------------------------------->
 <!---------------------------------------------------------------------- A propos  ------------------------------------------------------------------------------------------------->
-<!-- <div class="titres-about">
+<div class="titres-about">
     <h1>A propos de nous</h1>
 </div>
 <section class="about" id="about">
@@ -170,10 +170,10 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos nulla, quis fugiat dignissimos obcaecati consectetur, laboriosam saepe iusto nam consequatur dolorum beatae? Ad repellat dolorem laborum eligendi esse? Quae, doloribus?</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse repellat quos id quisquam voluptates numquam fugiat, vel aspernatur adipisci placeat eos! Ipsum autem magni deleniti eaque placeat neque facere veritatis?</p>
     </div>
-</section> -->
+</section>
 <!-------------------------------------------------------------------  Fin  A PROPOS-------------------------------------------------------------------------------------------------------->
 <!---------------------------------------------------------------------- Reseaux Sociaux FOOTER --------------------------------------------------------------------------------------------------------->
-<!-- <footer>
+<footer>
 <section class="contact" id="contact">
     <div class="social">
         <a href="#"><i class='bx bxl-facebook'></i></a>
@@ -190,4 +190,4 @@
 </footer>
 <script src="main.js"></script>
 </body>
-</html> -->
+</html>
