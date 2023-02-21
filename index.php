@@ -24,7 +24,7 @@
         <li><a href="galerie.html">Galerie</a></li>
         <li><a href="#about">A propos de nous</a></li>
         <li><a href="form.html">Contactez nous</a></li>
-        <li><a href="./views/connexion.php">Inscription/Se connecter</a></li>
+        <li><a href="./inscription.php">Inscription/Se connecter</a></li>
 
     </ul>
 </nav>
